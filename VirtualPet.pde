@@ -1,3 +1,5 @@
+size(1000,1000);
+
 //SPIKES
 stroke(56,118,29); //dark green
 fill(56,118,29); //dark green
