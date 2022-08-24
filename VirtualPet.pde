@@ -34,7 +34,7 @@ void draw(){
     
    //TAIL
    for (int i = 0; i < 1000; i++) {
-     stroke(lgR,lgG,lgB); //light green
+     stroke(10+(90.0/1000)*i + lgR-100, 70+(100.0/1000)*i + lgG-170, 0+(95.0/1000)*i + lgB-80);
      strokeWeight(i/20);
      float t = radians(i);
      float x = t * cos(t)*i/70;
